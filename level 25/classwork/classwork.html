@@ -1,0 +1,45 @@
+<!-- 1) შექმენით საიტი რომელზეც მომხმარებელს შეეძლება რომ აირჩიოს ის პროგრამირების ენა რომლის შესწავლაც სურს, ამ ენების არჩევანისთვის გააკეთეთ ჩამონათვალი და ჩამოწერეთ მინიმუმ 5 ვარიანტი, თითოეულ ვარიანტს უნდა ჰქონდეს თავისი შემოკებული ვერსია, ამისთვის გამოიყენეთ value ატრიბუტი \
+ 2) შექმენით საიტი რომელზეც იქნება ფორმა, სადაც მომხმარებელმა უნდა ჩაწეროს სახელი, ემაილი და აირჩიოს ენა (უნდა იყოს მინიმუმ 3 ვარიანტი)
+ 3) ახალ ფაილში შექმენით video თეგი და დაამატეთ ამ ვიდეოს 2 ფორმატი: mp4 და mkv
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="y">preferred proggramin languages </label>
+        <select name="select" id="y">
+            <option value="java">java</option>
+            <option value="js">javascript</option>
+            <option value="py">python</option>
+            <option value="c">C#</option>
+        </select>
+        <br>
+        <br>
+        <label for="s">first name: </label>
+        <input type="text" name="saxeli" id="s">
+        <br>
+        <br>
+        <label for="g">gmail: </label>
+        <input type="text" name="lastn" id="g">
+        <br>
+        <br>
+        <label for="l">choose language </label>
+        <select name="sel" id="l">
+            <option value="qartuli">qartuli</option>
+            <option value="rusuli">rusuli</option>
+            <option value="espanuri">espanuri</option>
+        </select>
+    </form>
+
+    <video controls >
+        <source src="./GOA_land - კლასიკური ზაფხული მცხეთაში.mp4" type="video/mp4">
+        <source src="./GOA_land - კლასიკური ზაფხული მცხეთაში.mkv" type="video/mkv">
+    </video>
+</body>
+</html>
